@@ -1,0 +1,85 @@
+/* RESET GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("../Images/SW4.jpg");
+    background-size: cover;
+}   
+
+.fundo h1 {
+    color: #ff0000;
+    position: absolute;
+    top: 5%;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px rgb(204, 0, 255);
+
+}
+
+.calculadora {
+    background: rgb(204, 0, 255);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px #ff0000;
+}
+
+.calculadora h2 {
+    color: #ff0000;
+    text-align: center;
+}
+
+#resultado {
+    background-color: #fff;
+    width: 14rem;
+    color: black;
+    height: 2rem;
+    text-align: right;
+    padding: .2rem .5rem;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    margin: 1rem auto 1rem;
+    overflow: hidden;
+    
+
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    margin: .18rem;
+    box-shadow: 3px 3px #ff0000;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-color: #ff0000;
+    color: rgb(204, 0, 255);
+}
+
+
+td[rowspan="2"] button {
+    background-color: #ff0000;
+    height: 108px;
+    color: #f700ff;
+
+
+}
+
+td [colspan="2"] button {
+    width:108px;
+
+
+}
+
